@@ -1,0 +1,79 @@
+{
+  "name": "hrm-player",
+  "version": "1.0.4",
+  "private": false,
+  "description": "A videojs player component for Vue.js",
+  "author": "wangdaodao <hi@wangdaodao.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "video.js": "^7.11.4",
+    "videojs-flash": "^2.2.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0",
+    "@babel/register": "7.0.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "^4.5.10",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/server-test-utils": "^1.1.2",
+    "@vue/test-utils": "^1.0.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "testcafe": "^1.10.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {},
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+ 
+  "keywords": [
+    "videojs",
+    "hls",
+    "rtmp",
+    "mp4",
+    "vue"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wangdaodao/hrm-player"
+  },
+  "style": "dist/hrm-player.css"
+}

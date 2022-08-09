@@ -1,0 +1,10 @@
+
+原文 
+
+https://blog.csdn.net/xiejiashu/article/details/86693552
+
+----
+
+git 
+
+https://github.com/tsingsee/EasyPlayer.js
